@@ -1,4 +1,5 @@
 pipeline {
+    //we make it that way to make this demo easier
     agent any
     //agent {
         //docker {
