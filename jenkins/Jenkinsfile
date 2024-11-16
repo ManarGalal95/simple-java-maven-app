@@ -28,5 +28,11 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
+        //This stage is added to explain (Poll SCM) concept.
+        stage('Complete') {
+            steps {
+                echo "Job Complete!"
+            }
+        }
     }
 }
